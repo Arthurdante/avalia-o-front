@@ -1,0 +1,18 @@
+.lista-principal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 30px;
+    justify-content: center; /* Alinhe os elementos à esquerda */
+}
+  
+  .lista-principal > div {
+    width: calc(33.33% - 40px); /* 33.33% width com 40px de espaço entre os elementos */
+    margin-bottom: 20px; /* Espaço inferior entre as linhas de elementos */
+}
+  
+.container > div {
+    float: left;
+    margin-right: 10px; /* Espaçamento entre elementos, ajuste conforme necessário */
+    justify-content: center;
+}
